@@ -15,15 +15,15 @@
     <form>
       <p>Please select the Service Level:</p>
       <div>
-      <input type="radio" id="Choice1" name="selection" value="Outstanding-30%">
+      <input type="radio" id="Choice1" name="selection" value="0.3">
       <label for="Choice1">Outstanding-30%</label>
-      <input type="radio" id="Choice2" name="selection" value="20%">
+      <input type="radio" id="Choice2" name="selection" value="0.2">
       <label for="Choice2">Good-20%</label>
-      <input type="radio" id="Choice3" name="selection" value="15%">
+      <input type="radio" id="Choice3" name="selection" value="0.15">
       <label for="Choice3">OKish-15%</label>
-      <input type="radio" id="Choice4"name="selection" value="10%">
+      <input type="radio" id="Choice4"name="selection" value="0.1">
       <label for="Choice4">Bad-10%</label>
-      <input type="radio" id="Choice5" name="selection" value="0%">
+      <input type="radio" id="Choice5" name="selection" value="0">
       <label for="Choice5">Never coming back-0%</label>
      </div>
     </form>
@@ -32,7 +32,7 @@
       <input type="number" id="NumberofPersons" name="NumberofPersons">
     </form>
     <button type="button" id="calculate">CalculateTips</button>
-    <output  for="calculate" id = "tip">The amount of tips for each person is:</output>
+    <span id = "tip">The amount of tips for each person is:</span>
     
 
   <script src="tip.js"></script>  
