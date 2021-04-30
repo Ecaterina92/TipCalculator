@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form>
+      <label for="Totalbill">Total bill:</label><br>
+      <input type="number" id="Totalbill" name="Totalbill">
+    </form>
+    <form>
+      <p>Please select the Service Level:</p>
+      <div>
+      <input type="radio" id="Choice1" name="selection" value="Outstanding-30%">
+      <label for="Choice1">Outstanding-30%</label>
+      <input type="radio" id="Choice2" name="selection" value="20%">
+      <label for="Choice2">Good-20%</label>
+      <input type="radio" id="Choice3" name="selection" value="15%">
+      <label for="Choice3">OKish-15%</label>
+      <input type="radio" id="Choice4"name="selection" value="10%">
+      <label for="Choice4">Bad-10%</label>
+      <input type="radio" id="Choice5" name="selection" value="0%">
+      <label for="Choice5">Never coming back-0%</label>
+     </div>
+    </form>
+    <form>
+      <label for="NumberofPersons">Number of Persons:</label><br>
+      <input type="number" id="NumberofPersons" name="NumberofPersons">
+    </form>
+    <button type="button" id="calculate">CalculateTips</button>
+    <output  for="calculate" id = "tip">The amount of tips for each person is:</output>
+    
+
+  <script src="tip.js"></script>  
+</body>
+</html>

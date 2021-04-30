@@ -1,0 +1,11 @@
+body {
+  background-color: aqua;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline;
+}
